@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chat with friend</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="floating-hearts" id="floatingHearts"></div>
+    
+    <div class="chat-container">
+        <div class="chat-header">
+            <div class="profile-pic">
+                <i class="fas fa-heart"></i>
+            </div>
+            <div class="header-content">
+                <h1>Ankit 💖<span class="heart-pulse">❤️</span></h1>
+                <div class="status">
+                    <span class="status-dot"></span>
+                    Online - Last seen just now
+                </div>
+            </div>
+        </div>
+        
+        <div class="welcome-banner">
+            <i class="fas fa-heart"></i> Baat karo Ankit se, dil ki baatein karo <i class="fas fa-heart"></i>
+        </div>
+        
+        <div class="chat-messages" id="chatMessages">
+            <div class="message bot">
+                <span class="message-text">Hlo, kya kar raha ho? 💭</span>
+                <span class="message-time">Just now</span>
+            </div>
+        </div>
+        
+        <div class="chat-input-area">
+            <input type="text" id="userInput" placeholder="Message Ankit...">
+            <button id="sendButton">
+                <i class="fas fa-paper-plane"></i>
+            </button>
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
