@@ -1,0 +1,23 @@
+{
+  "name": "linkedin-automation",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@google/genai": "^1.16.0",
+    "@google/generative-ai": "^0.24.1",
+    "dotenv": "^17.2.1",
+    "groq-sdk": "^0.30.0",
+    "openai": "^5.16.0",
+    "puppeteer": "^24.18.0",
+    "readline-sync": "^1.4.10"
+  }
+}
